@@ -16,27 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
 				<div class="white-popup-block">
-                        <div class="col-md-4 login-social">
-                            <h4>Login with social</h4>
-                            <ul>
-                                <li class="facebook">
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li class="twitter">
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="linkedin">
-                                    <a href="#">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-8 login-custom">
+                        <div class="col-md-8 col-md-offset-2">
                             <h4>Login to your registered account!</h4>
                             <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
 

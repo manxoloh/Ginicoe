@@ -24,7 +24,7 @@ class AppAsset extends AssetBundle
         'theme/css/style.css',
     ];
     public $js = [
-        //'theme/js/jquery-1.12.4.min.js',
+        'theme/js/jquery-1.12.4.min.js',
         'theme/js/bootstrap.min.js',
         'theme/js/equal-height.min.js',
         'theme/js/jquery.appear.js',
@@ -45,6 +45,6 @@ class AppAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        //'yii\bootstrap\BootstrapAsset',
     ];
 }

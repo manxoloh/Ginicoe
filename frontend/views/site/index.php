@@ -81,6 +81,7 @@ $this->title = 'Ginicoe Inc | Home';
             </a>
         </div>
     </div>
+    
     <div class="about-area full-width inc-shadow mt default-padding bottom-less">
         <div class="container">
             <div class="row">
@@ -260,6 +261,115 @@ $this->title = 'Ginicoe Inc | Home';
                         </div>
                     </div>
                     <!-- End Single Item -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-area bg-gray inc-colum default-padding">
+        <div class="container">
+            <div class="portfolio-items-area text-center">
+                <div class="row">
+                    <div class="col-md-12 portfolio-content">
+                        <div class="mix-item-menu text-center">
+                            <button class="active" data-filter="*">All</button>
+                            <button data-filter=".consumers" class="">Consumers</button>
+                            <button data-filter=".merchants" class="">Merchants</button>
+                            <button data-filter=".finance" class="">Banks</button>
+                            <button data-filter=".government" class="">Government</button>
+                            <button data-filter=".healthcare" class="">HealthCare</button>
+                            <button data-filter=".education" class="">Education</button>
+                        </div>
+                        <!-- End Mixitup Nav-->
+
+                        <div class="row magnific-mix-gallery text-center masonary">
+                            <div id="portfolio-grid" class="portfolio-items col-3" style="position: relative; height: 690.416px;">
+                                <!-- Single Item -->
+                                <div class="pf-item consumers" style="position: absolute; left: 0%; top: 0px;">
+                                    <div class="effect-left-swipe">
+                                        <img src="theme/img/services/consumers.jpg" alt="thumb">
+                                        <a href="theme/img/services/consumers.jpg" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                        <div class="icons">
+                                            <h4><a href="#">Consumers</a></h4>
+                                            <div class="cat">
+                                                <span>Ginicoe delivers to YOU facial biometric PROTECTION at the SPEED of a Smile</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="pf-item merchants" style="position: absolute; left: 33.2479%; top: 0px;">
+                                    <div class="effect-left-swipe">
+                                        <img src="theme/img/services/Merchant_Banner.jpg" alt="thumb">
+                                        <a href="theme/img/services/Merchant_Banner.jpg" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                        <div class="icons">
+                                            <h4><a href="#">Merchants</a></h4>
+                                            <div class="cat">
+                                                <span>Reduce chargeback expenses, risk category, dispute resolution time lost.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="pf-item finance" style="position: absolute; left: 66.5812%; top: 0px;">
+                                    <div class="effect-left-swipe">
+                                        <img src="theme/img/services/Finacial_Banner.jpg" alt="thumb">
+                                        <a href="theme/img/services/Finacial_Banner.jpg" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                        <div class="icons">
+                                            <h4><a href="#">Banks</a></h4>
+                                            <div class="cat">
+                                                <span>KYC, CDD, data sharing, to reduce Account takeover fraud, synthetic id fraud.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="pf-item government" style="position: absolute; left: 0%; top: 299px;">
+                                    <div class="effect-left-swipe">
+                                        <img src="theme/img/services/Government_Banner.jpg" alt="thumb">
+                                        <a href="theme/img/services/Government_Banner.jpg" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                        <div class="icons">
+                                            <h4><a href="#">Goverment</a></h4>
+                                            <div class="cat">
+                                                <span>Augment e-Verify, TWIC, preventing visa overstays, authenticating SNAP.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="pf-item healthcare" style="position: absolute; left: 66.5812%; top: 299px;">
+                                    <div class="effect-left-swipe">
+                                        <img src="theme/img/services/Medical_Banner.jpg" alt="thumb">
+                                        <a href="theme/img/services/Medical_Banner.jpg" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                        <div class="icons">
+                                            <h4><a href="#">HealthCare</a></h4>
+                                            <div class="cat">
+                                                <span>Guidance with PHI, HIPPA, HITECH and eRecord security for ubiquitous trusted access.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="pf-item education" style="position: absolute; left: 33.2479%; top: 299px;">
+                                    <div class="effect-left-swipe">
+                                        <img src="theme/img/services/about_banner.jpg" alt="thumb">
+                                        <a href="theme/img/services/about_banner.jpg" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                        <div class="icons">
+                                            <h4><a href="#">Education</a></h4>
+                                            <div class="cat">
+                                                <span>Education</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Item -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

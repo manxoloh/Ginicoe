@@ -595,6 +595,9 @@ header nav.navbar.border.bootsnav.navbar-fixed.no-background .attr-nav ul li a:h
   width: 0;
 }
 
+.nav a:hover{
+    text-decoration: underline !important;
+}
 .attr-nav .social.right li {
   margin-left: 20px;
 }
