@@ -150,7 +150,7 @@ AppAsset::register($this);
 							</ul>
 				</li>
 				<li>
-                    <a class="" href="http://dev.ginicio.com">
+                    <a class="" href="http://dev.ginicoe.com">
                         <i class="fa fa-globe"></i>
                         <span>Visit Front End</span>
                     </a>
