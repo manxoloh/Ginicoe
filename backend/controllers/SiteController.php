@@ -60,7 +60,6 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        Yii::$app->session->setFlash('success', 'Welcome, login successful!');
         return $this->render('index');
     }
 
@@ -79,7 +78,7 @@ class SiteController extends Controller
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            Yii::$app->session->setFlash('error', 'Wrong password or username');
+            Yii::$app->session->setFlash('success', 'Welcome, login successful!');
             return $this->goBack();
         } else {
             $model->password = '';

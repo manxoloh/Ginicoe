@@ -51,5 +51,8 @@ return [
         ],
         
     ],
+    'as beforeRequest'=>[
+        'class'=>'common\components\AccessBehavior',
+    ],
     'params' => $params,
 ];
