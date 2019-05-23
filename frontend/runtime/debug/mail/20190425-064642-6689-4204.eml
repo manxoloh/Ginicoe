@@ -1,0 +1,55 @@
+Message-ID: <7852d02b186d8b7d908db68a15684d68@localhost>
+Date: Thu, 25 Apr 2019 06:46:38 +0000
+Subject: Account registration at Ginicoe Inc
+From: Ginicoe Inc robot <support@example.com>
+To: solo.maithya@gmaffgfgfil.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1556174798_129516ac323dcf3987942e7539379e59_=_"
+
+
+--_=_swift_1556174798_129516ac323dcf3987942e7539379e59_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Hello solomonaa,
+
+Follow the link below to verify your email:
+
+h=
+ttp://localhost/dev/frontend/web/index.php?r=3Dsite%2Fverify-email&token=3D=
+k4xAQfZ_97VL2u4UVV8-JodvYuGCCcbW_1556174798
+
+--_=_swift_1556174798_129516ac323dcf3987942e7539379e59_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"verify-email">
+    <p>Hello solomonaa,</p>
+
+    <p>=
+Follow the link below to verify your email:</p>
+
+    <p><a href=3D"http=
+://localhost/dev/frontend/web/index.php?r=3Dsite%2Fverify-email&amp;token=
+=3Dk4xAQfZ_97VL2u4UVV8-JodvYuGCCcbW_1556174798">http://localhost/dev/fronte=
+nd/web/index.php?r=3Dsite%2Fverify-email&amp;token=3Dk4xAQfZ_97VL2u4UVV8-Jo=
+dvYuGCCcbW_1556174798</a></p>
+</div>
+    </body>
+</html>
+
+
+--_=_swift_1556174798_129516ac323dcf3987942e7539379e59_=_--

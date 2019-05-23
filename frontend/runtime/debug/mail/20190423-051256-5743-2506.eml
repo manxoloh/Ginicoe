@@ -1,0 +1,55 @@
+Message-ID: <a3f1bb7cae03a8edc5456245fd468f40@dev.ginicoe.com>
+Date: Tue, 23 Apr 2019 05:12:49 -0400
+Subject: Account registration at Ginicoe Inc
+From: Ginicoe Inc robot <support@example.com>
+To: maithyaknife@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1556010769_53fa221c81b094986d4aa2c40abbf1bd_=_"
+
+
+--_=_swift_1556010769_53fa221c81b094986d4aa2c40abbf1bd_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Hello admin,
+
+Follow the link below to verify your email:
+
+http:=
+//dev.ginicoe.com/frontend/web/index.php?r=3Dsite%2Fverify-email&token=3D6t=
+7h2oZR99nT6DiayR36EN9IP5eT8zAd_1556010769
+
+--_=_swift_1556010769_53fa221c81b094986d4aa2c40abbf1bd_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"verify-email">
+    <p>Hello admin,</p>
+
+    <p>Foll=
+ow the link below to verify your email:</p>
+
+    <p><a href=3D"http://d=
+ev.ginicoe.com/frontend/web/index.php?r=3Dsite%2Fverify-email&amp;token=3D6=
+t7h2oZR99nT6DiayR36EN9IP5eT8zAd_1556010769">http://dev.ginicoe.com/frontend=
+/web/index.php?r=3Dsite%2Fverify-email&amp;token=3D6t7h2oZR99nT6DiayR36EN9I=
+P5eT8zAd_1556010769</a></p>
+</div>
+    </body>
+</html>
+
+
+--_=_swift_1556010769_53fa221c81b094986d4aa2c40abbf1bd_=_--

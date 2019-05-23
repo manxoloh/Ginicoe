@@ -1,0 +1,28 @@
+        Options +Indexes
+	Order allow,deny
+	Allow from all
+	
+	Options +FollowSymlinks
+        RewriteEngine On
+
+	RewriteBase /dev
+	
+	# deal with admin first
+        RewriteCond %{REQUEST_URI} ^/dev/(admin)
+        RewriteRule ^admin/assets/(.*)$ backend/web/assets/$1 [L]
+        RewriteRule ^admin/bucket/(.*)$ backend/web/bucket/$1 [L]
+        RewriteRule ^admin/uploads/(.*)$ backend/web/uploads/$1 [L]
+        #
+        RewriteCond %{REQUEST_URI} ^/dev/(admin)
+        RewriteRule ^.*$ backend/web/index.php [L]
+
+        #
+        RewriteRule ^assets/(.*)$ frontend/web/assets/$1 [L]
+        RewriteRule ^theme/(.*)$ frontend/web/theme/$1 [L]
+        RewriteRule ^uploads/(.*)$ frontend/web/uploads/$1 [L]
+        #
+        RewriteCond %{REQUEST_URI} !^/dev/(frontend|backend)/web/(theme|assets|bucket|uploads)/
+        RewriteCond %{REQUEST_URI} !index.php
+        RewriteCond %{REQUEST_FILENAME} !-f [OR]
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteRule ^.*$ frontend/web/index.php
