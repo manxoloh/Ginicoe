@@ -86,12 +86,14 @@ $solutions = Solution::find()->all();
                                 <li><a href="<?= Url::to(['/site/service', 'id'=>$solution['id']]) ?>"><?= isset($solution['title']) ? $solution['title'] : null ?></a></li>
                             <?php } ?>
                             </ul>
-                        </li>
-                        <li>
-                            <a href="<?= Url::to(['/site/pricing']) ?>">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="<?= Url::to(['/site/contact']) ?>">Contact</a>
+                        </li>                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Pricing</a>
+                            <ul class="dropdown-menu">
+                            <?php foreach ($solutions as $solution) { ?>
+                                <li><a href="<?= Url::to(['/site/pricing', 'product_id'=>$solution['id']]) ?>"><?= isset($solution['title']) ? $solution['title'] : null ?></a></li>
+                            <?php } ?>
+                            </ul>
                         </li>
                         <?php if(Yii::$app->user->isGuest) { ?>
                         <li>
@@ -130,9 +132,14 @@ $solutions = Solution::find()->all();
                                 <li><a href="<?= Url::to(['/site/service', 'id'=>$solution['id']]) ?>"><?= isset($solution['title']) ? $solution['title'] : null ?></a></li>
                             <?php } ?>
                             </ul>
-                        </li>
-                        <li>
-                            <a href="<?= Url::to(['/site/pricing']) ?>">Pricing</a>
+                        </li>                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Pricing</a>
+                            <ul class="dropdown-menu">
+                            <?php foreach ($solutions as $solution) { ?>
+                                <li><a href="<?= Url::to(['/site/pricing', 'product_id'=>$solution['id']]) ?>"><?= isset($solution['title']) ? $solution['title'] : null ?></a></li>
+                            <?php } ?>
+                            </ul>
                         </li>
                         <li>
                             <a href="<?= Url::to(['/site/contact']) ?>">contact</a>

@@ -17,6 +17,7 @@ use frontend\models\ContactForm;
 use common\models\Consumer;
 use common\models\Payments;
 use backend\models\Solution;
+use backend\models\Pricing;
 
 /**
  * Site controller
@@ -111,9 +112,10 @@ class SiteController extends Controller
         $this->enableCsrfValidation = false;
         return parent::beforeAction($action);
     }
-    public function actionPricing()
+    public function actionPricing($product_id)
     {
-        return $this->render('pricing');
+        $prices = Pricing::find()->where(['product_id'=>$product_id])->all();
+        return $this->render('pricing', ['prices'=>$prices]);
     }
     public function actionService($id)
     {

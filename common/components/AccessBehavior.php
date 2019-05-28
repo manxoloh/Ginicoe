@@ -33,7 +33,7 @@ class AccessBehavior extends Behavior
         if (Yii::$app->getUser()->isGuest &&
             Yii::$app->getRequest()->url !== Url::to(\Yii::$app->getUser()->loginUrl) &&
             Yii::$app->getRequest()->url !== Url::to(['site/signup']) &&
-            Yii::$app->getRequest()->url !== Url::to(['site/request-password-reset']) &&
+            Yii::$app->getRequest()->url !== Url::to(['site/requestpasswordreset']) &&
             Url::to([$event->sender->requestedRoute]) !== Url::to(['site/reset-password'])
             ) {
                 Yii::$app->getResponse()->redirect(\Yii::$app->getUser()->loginUrl);
