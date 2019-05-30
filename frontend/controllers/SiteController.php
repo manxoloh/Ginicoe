@@ -95,14 +95,22 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $this->layout = 'home';
-        if (! Yii::$app->user->isGuest) {
-            $check = Consumer::find()->where([
-                'user_id' => Yii::$app->user->identity->id
-            ])->one();
-            if (! $check) {
+        if (!Yii::$app->user->isGuest) {
+            if(Yii::$app->user->identity->user_type == 1){
                 return $this->redirect([
-                    '/consumer/create'
-                ]);
+                '/merchant/create'
+            ]);                
+            }
+            
+            if(Yii::$app->user->identity->user_type == 2){
+                $check = Consumer::find()->where([
+                    'user_id' => Yii::$app->user->identity->id
+                ])->one();
+                if (!$check) {
+                    return $this->redirect([
+                        '/consumer/create'
+                    ]);
+                }
             }
         }
         return $this->render('index');
